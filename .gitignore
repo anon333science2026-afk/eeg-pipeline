@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.mypy_cache/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Editors / OS
+.idea/
+.vscode/
+.DS_Store
+*.swp
+*.swo
+
+# Build artifacts
+# config_handler_temp.py is generated from the config_handler.py symlink at Docker build time
+config_handler_temp.py
+
+# Container images
+*.sif
+*.tar
+containers/*.sif
+
+# Logs
+logs/
+*.log
